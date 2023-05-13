@@ -1,9 +1,13 @@
-CodeGenX
+CodeGenerator
 ---
 > Code generation plug-in based on database table
 
+####  project based
+![CodeGenX](https://github.com/huyaro/CodeGenX.git)
+
+
 #### Support Features
-- generate code for entity and repository
+- generate code for entity、input and repository
 - support framework: jimmer
 - support language: java, kotlin
 
@@ -14,5 +18,3 @@ CodeGenX
 - RegisteredType
 ![registeredType](screenshot/registeredType.png)
 
-- IDEA Plugin
-![IDEA plugin](screenshot/plugin.png)

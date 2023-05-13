@@ -3,7 +3,7 @@ CodeGenerator
 > Code generation plug-in based on database table
 
 ####  project based
-![CodeGenX](https://github.com/huyaro/CodeGenX.git)
+[CodeGenX](https://github.com/huyaro/CodeGenX.git)
 
 
 #### Support Features

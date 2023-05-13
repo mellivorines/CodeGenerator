@@ -1,0 +1,19 @@
+package ${fullPackage}
+
+#foreach($pkg in ${imports})
+import ${pkg}
+#end
+
+/**
+* <p>
+ * ${entityName}Repository 接口
+ * </p>
+*
+* @author ${author}
+* @date ${date}
+*/
+@Repository
+interface ${entityName}Repository :KRepository<${entityName},${entityKeyType}> {
+
+}
+

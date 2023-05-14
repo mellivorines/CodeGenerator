@@ -6,7 +6,7 @@ import kotlin.reflect.KClass
  * column info
  *
  * @author mellivorines
- * @date 2022-10-10
+ * @since 2023/5/13
  */
 data class Column(
     /**

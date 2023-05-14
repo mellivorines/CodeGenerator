@@ -34,7 +34,7 @@ import javax.swing.JComponent
  * main dialog
  *
  * @author mellivorines
- * @date 2022-11-06
+ * @since 2023/5/13
  */
 internal class GeneratorAction : DumbAwareAction() {
 

@@ -27,7 +27,7 @@ import javax.swing.table.TableColumn
 
 /**
  * @author mellivorines
- * @date 2022-11-14
+ * @since 2023/5/13
  * @description Config Dialog
  */
 class TypesDialog (private val project: Project?) {

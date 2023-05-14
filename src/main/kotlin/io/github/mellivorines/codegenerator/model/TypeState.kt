@@ -9,7 +9,7 @@ import kotlin.reflect.KClass
 
 /**
  * @author mellivorines
- * @date 2022-11-15
+ * @since 2023/5/13
  * @description build-in types
  */
 class TypeState {

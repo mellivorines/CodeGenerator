@@ -7,7 +7,7 @@ import io.github.mellivorines.codegenerator.model.setting.StrategyRule
 
 /**
  * @author mellivorines
- * @date 2022-11-21
+ * @since 2023/5/13
  * @description Function details...
  */
 /**

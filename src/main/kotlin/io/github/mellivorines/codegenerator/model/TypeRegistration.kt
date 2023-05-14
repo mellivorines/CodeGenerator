@@ -10,7 +10,7 @@ import kotlin.reflect.KClass
 
 /**
  * @author mellivorines
- * @date 2022-11-18
+ * @since 2023/5/13
  * @description Storage current types mapping
  */
 @State(

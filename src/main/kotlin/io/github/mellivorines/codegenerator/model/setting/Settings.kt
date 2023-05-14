@@ -6,7 +6,7 @@ import org.jetbrains.annotations.ApiStatus
 
 /**
  * @author mellivorines
- * @date 2022-11-14
+ * @since 2023/5/13
  * @description generator source data
  */
 @ApiStatus.Internal
@@ -15,7 +15,6 @@ data class DataModel(
     val tables: MutableList<DbTable>
 )
 
-// ==================For GeneratorDialog==================
 /**
  * generator options
  */

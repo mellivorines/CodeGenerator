@@ -4,7 +4,7 @@ package io.github.mellivorines.codegenerator.meta
  * 表信息
  *
  * @author mellivorines
- * @date 2022-10-10
+ * @since 2023/5/13
  */
 data class Table (
     /**

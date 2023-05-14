@@ -39,7 +39,7 @@ import javax.swing.ListSelectionModel
  * Generator Dialog ui
  *
  * @author mellivorines
- * @date 2022-11-06
+ * @since 2023/5/13
  */
 class GeneratorDialog constructor(
     private val project: Project?,

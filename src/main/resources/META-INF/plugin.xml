@@ -58,5 +58,11 @@
                 text="CodeGenerator" description="Code generator" popup="true">
             <add-to-group group-id="DatabaseViewPopupMenu" anchor="first"/>
         </action>
+        <action id="io.github.mellivorines.GeneratorInput"
+                class="io.github.mellivorines.codegenerator.GeneratorInputActions"
+                text="GeneratorInput" description="Generator Input">
+            <add-to-group group-id="Database.KeymapGroup" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="shift meta G"/>
+        </action>
     </actions>
 </idea-plugin>

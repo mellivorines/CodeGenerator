@@ -41,7 +41,7 @@ import javax.swing.ListSelectionModel
  * @author mellivorines
  * @since 2023/5/13
  */
-class GeneratorDialog constructor(
+class GeneratorDialog(
     private val project: Project?,
     private val options: GeneratorOptions,
     private val data: DataModel

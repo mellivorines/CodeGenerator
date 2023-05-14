@@ -1,7 +1,7 @@
 package io.github.mellivorines.codegenerator.meta
 
 /**
- * 表信息
+ * table info
  *
  * @author mellivorines
  * @since 2023/5/13

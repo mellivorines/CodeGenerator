@@ -8,7 +8,7 @@
     <name>CodeGenerator</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="lilinxi015@163.com" url="https://github.com/mellivorines">CodeGenX</vendor>
+    <vendor email="lilinxi015@163.com" url="https://github.com/mellivorines">CodeGenerator</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
@@ -18,12 +18,15 @@
     Features:
     <ul>
       <li>Generate some codes from database tables</li>
+      <li>Generate entity,input,repository code by jimmer templates</li>
+      <li>https://github.com/mellivorines/CodeGenerator/blob/main/screenshot/generator.png</li>
     </ul>
   ]]></description>
     <change-notes><![CDATA[
         <h4>0.0.1</h4>
         <ul>
             <li>Generate entity,input,repository code by templates</li>
+            <li>https://github.com/mellivorines/CodeGenerator/blob/main/screenshot/generator.png</li>
         </ul>
      ]]></change-notes>
 

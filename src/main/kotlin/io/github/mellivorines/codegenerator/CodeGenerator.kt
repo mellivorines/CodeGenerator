@@ -26,8 +26,7 @@ import kotlin.io.path.notExists
  * @since 2023/5/13
  * @description generate code with config
  */
-class CodeGenerator
-constructor(private val project: Project, private val options: GeneratorOptions, private var tables: List<Table>) {
+class CodeGenerator(private val project: Project, private val options: GeneratorOptions, private var tables: List<Table>) {
 
     private val log = Logger.getInstance(CodeGenerator::class.java)
 

@@ -18,6 +18,7 @@ import org.babyfish.jimmer.sql.*
  */
 @Entity
 @Table(name = "${table.getName()}")
+@Schema(description = "#if("$!{table.getComment()}" != "") ${table.getComment()}#else ${table.getName()}#end", title = "#if("$!{table.getComment()}" != "") ${table.getComment()}#else ${table.getName()}#end")
 interface ${table.getClassName()} #if("$!{superClass}" != "") :${superClass} #end{
 
 ## ----------  BEGIN 字段循环遍历  ----------
@@ -37,6 +38,7 @@ interface ${table.getClassName()} #if("$!{superClass}" != "") :${superClass} #en
     #if(${field.getName()} != ${field.getPropName()})
     @Column(name = "${field.getName()}")
     #end
+    @get:Schema(description = "#if("$!{field.getComment()}" != "") ${field.getComment()} #else ${field.getName()}#end")
     val ${field.getPropName()}: ${field.getJvmTypeName()}#if(${field.getNullable()})? #end
 
 #end

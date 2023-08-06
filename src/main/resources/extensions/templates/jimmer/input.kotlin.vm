@@ -16,12 +16,14 @@ import org.mapstruct.Mapper
 * @author ${author}
 * @date ${date}
 */
+@Schema(description = "#if("$!{table.getComment()}" != "") ${table.getComment()}#else ${table.getName()}#end", title = "#if("$!{table.getComment()}" != "") ${table.getComment()}#else ${table.getName()}#end")
 data class ${table.getClassName()}Input(
 ## ----------  BEGIN 字段循环遍历  ----------
 #foreach($field in ${table.getColumns()})
 /**
 * #if("$!{field.getComment()}" != "") ${field.getComment()} #else ${field.getName()}  #end
 */
+@Schema(description = "#if("$!{field.getComment()}" != "") ${field.getComment()} #else ${field.getName()}#end")
 val ${field.getPropName()}: ${field.getJvmTypeName()} #if(${field.getNullable()})? #end ,
 
 #end

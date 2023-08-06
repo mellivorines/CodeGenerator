@@ -23,7 +23,7 @@
     </ul>
   ]]></description>
     <change-notes><![CDATA[
-        <h4>0.0.1</h4>
+        <h4>0.0.12</h4>
         <ul>
             <li>Generate entity,input,repository code by templates</li>
             <li>https://github.com/mellivorines/CodeGenerator/blob/main/screenshot/generator.png</li>

@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "io.github.mellivorines"
-version = "0.0.1"
+version = "0.0.12"
 
 repositories {
     mavenCentral()
@@ -43,7 +43,7 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("221")
-        untilBuild.set("231.*")
+        untilBuild.set("232.*")
     }
 
     signPlugin {
